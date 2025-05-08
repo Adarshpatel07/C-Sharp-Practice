@@ -22,8 +22,10 @@ namespace AverageOfFourProgram
             
             Console.Write("Enter value fourth :");
             num4 = Convert.ToInt32(Console.ReadLine());
+
+            double average = (num1 + num2 + num3 + num4) / 4.0;
             
-            Console.Write("The Average is : {0}",(num1+num2+num3+num4)/4);
+            Console.Write("The Average is : {0}",average);
         }
     }
 }
